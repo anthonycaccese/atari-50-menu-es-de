@@ -1,16 +1,12 @@
-# Mania Menu (ES-DE Version)
-A simple theme for the version of EmulationStation used in [ES-DE](https://es-de.org/) v2.x.  The design is inspired by the Menu UI from [Sonic Mania](https://www.sega.com/games/sonicmania).
+# Atari 50 Menu (ES-DE Version)
+A simple theme for the version of EmulationStation used in [ES-DE](https://es-de.org/) v2.x.  The design is inspired by the Menu UI from [Atari 50: The Anniversay Celebration](https://atari.com/products/atari-50th-the-anniversary-celebration).
 
 ## **Preview**
-| Aspect Ratio | Preview |
-|----|----|
-| 16:9 | <img alt="16:9" src="https://user-images.githubusercontent.com/1454947/218916985-0faf02c5-fc65-476d-95fd-790a69698a43.png"> | 
-| 16:10 | <img alt="16:10" src="https://user-images.githubusercontent.com/1454947/218917003-8bf0816b-ce9d-44e4-ae69-416959e50755.png"> | 
-| 4:3 | <img alt="4:3" src="https://user-images.githubusercontent.com/1454947/218917014-c0173ee1-09f1-4a22-a1c2-58c03bde4770.png"> | 
+![Screenshot 2023-02-18 at 4 11 47 PM](https://user-images.githubusercontent.com/1454947/219899678-df0d4a1c-20b9-4830-b357-252a6bd64227.png)
 
 ## **Acknowledgments**
-* This theme was heavily inspired by the awesome menu ui in [Sonic Mania](https://www.sega.com/games/sonicmania). 
-* The font was created by “kickstartmyheart”
+* This theme was heavily inspired by the awesome menu ui in [Atari 50: The Anniversay Celebration](https://atari.com/products/atari-50th-the-anniversary-celebration). 
+* The font was created by [Pixel Sagas](https://www.fontspace.com/joystick-font-f18045)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
