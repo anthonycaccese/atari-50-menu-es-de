@@ -6,7 +6,7 @@ A simple theme for the version of EmulationStation used in [ES-DE](https://es-de
 
 ## **Acknowledgments**
 * This theme was heavily inspired by the awesome menu ui in [Atari 50: The Anniversay Celebration](https://atari.com/products/atari-50th-the-anniversary-celebration). 
-* The font was created by [Pixel Sagas](https://www.fontspace.com/joystick-font-f18045)
+* Harry font originally created by [Marty Goldstein (and C.B. Smith)](https://fontsme.com/harry.font)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/

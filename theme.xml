@@ -9,8 +9,9 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <font>./_inc/fonts/Joystick.ttf</font>
-      <fontBold>./_inc/fonts/JoystickBold.ttf</fontBold>
+      <fontThin>./_inc/fonts/HarryPlain.otf</fontThin>
+      <fontRegular>./_inc/fonts/HarryHeavy.otf</fontRegular>
+      <fontBold>./_inc/fonts/HarryFat.otf</fontBold>
    </variables>
 
    <view name="system,gamelist">
@@ -48,14 +49,15 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>0 1</origin>
          <pos>0.03 0.1</pos>
          <fontSize>0.05</fontSize>
-         <fontPath>${font}</fontPath>
+         <fontPath>${fontBold}</fontPath>
          <color>ffffff</color>
          <lineSpacing>1</lineSpacing>
       </text>
       <helpsystem name="help">
          <origin>1 1</origin>
          <pos>0.9765625 0.085</pos>
-         <fontSize>0.024</fontSize>
+         <fontSize>0.02</fontSize>
+         <fontPath>${fontThin}</fontPath>
          <textColor>ffffffbb</textColor>
          <iconColor>ffffffbb</iconColor>
       </helpsystem>
@@ -64,8 +66,8 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <pos>0.671875 0.247222222222222</pos><!-- 860 178 -->
          <size>0.328125 0.652777777777778</size><!-- 420 470 -->
          <color>00000000</color>
-         <fontPath>${font}</fontPath>
-         <fontSize>0.034</fontSize>
+         <fontPath>${fontRegular}</fontPath>
+         <fontSize>0.036</fontSize>
          <textColor>ffffff</textColor>
          <textSelectedColor>ffffff</textSelectedColor>
          <textBackgroundColor>ff000000</textBackgroundColor>
@@ -92,7 +94,9 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <text name="game-count">
          <origin>0 1</origin>
          <pos>0.68 0.64</pos><!-- 860 460 -->
-         <fontSize>0.03</fontSize>
+         <fontSize>0.026</fontSize>
+         <fontPath>${fontThin}</fontPath>
+         <letterCase>uppercase</letterCase>
          <color>ffffffaa</color>
          <systemdata>gamecount</systemdata>
       </text>
