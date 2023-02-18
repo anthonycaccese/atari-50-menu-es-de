@@ -2,7 +2,9 @@
 A simple theme for the version of EmulationStation used in [ES-DE](https://es-de.org/) v2.x.  The design is inspired by the Menu UI from [Atari 50: The Anniversay Celebration](https://atari.com/products/atari-50th-the-anniversary-celebration).
 
 ## **Preview**
-![Screenshot 2023-02-18 at 4 11 47 PM](https://user-images.githubusercontent.com/1454947/219899678-df0d4a1c-20b9-4830-b357-252a6bd64227.png)
+![Screenshot 2023-02-18 at 4 43 04 PM](https://user-images.githubusercontent.com/1454947/219900803-3702fe57-a761-4b33-9e62-f522cb773dd1.png)
+![Screenshot 2023-02-18 at 4 43 45 PM](https://user-images.githubusercontent.com/1454947/219900806-93281624-a237-4fb2-aabf-fd89cad86327.png)
+
 
 ## **Acknowledgments**
 * This theme was heavily inspired by the awesome menu ui in [Atari 50: The Anniversay Celebration](https://atari.com/products/atari-50th-the-anniversary-celebration). 
