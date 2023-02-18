@@ -1,0 +1,114 @@
+<!--
+theme name:    Atari 50 Menu (ES-DE Edition)
+author:        anthonycaccese
+inspired by:   The menu ui from Atari 50
+license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
+-->
+
+<theme>
+
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <font>./_inc/fonts/Joystick.ttf</font>
+      <fontBold>./_inc/fonts/JoystickBold.ttf</fontBold>
+   </variables>
+
+   <view name="system,gamelist">
+      <image name="background-color">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>000000</color>
+         <zIndex>0</zIndex>
+      </image>
+      <gameselector name="selector-random">
+         <selection>random</selection>
+      </gameselector>
+      <video name="background-art">
+         <origin>0 0.5</origin>
+         <pos>0 0.5</pos>
+         <maxSize>1 2</maxSize>
+         <zIndex>1</zIndex>
+         <gameselector>selector-random</gameselector>
+         <imageType>screenshot</imageType>
+         <scanlines>true</scanlines>
+         <delay>3</delay>
+         <pillarboxes>false</pillarboxes>
+      </video>
+      <image name="background-image">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background.svg</path>
+         <zIndex>2</zIndex>
+      </image>
+      <text name="title,system-name,auto-collection-name,custom-collection-name">
+         <origin>0 1</origin>
+         <pos>0.03 0.1</pos>
+         <fontSize>0.05</fontSize>
+         <fontPath>${font}</fontPath>
+         <color>ffffff</color>
+         <lineSpacing>1</lineSpacing>
+      </text>
+      <helpsystem name="help">
+         <origin>1 1</origin>
+         <pos>0.9765625 0.085</pos>
+         <fontSize>0.024</fontSize>
+         <textColor>ffffffbb</textColor>
+         <iconColor>ffffffbb</iconColor>
+      </helpsystem>
+      <carousel name="carousel">
+         <origin>0 0</origin>
+         <pos>0.671875 0.247222222222222</pos><!-- 860 178 -->
+         <size>0.328125 0.652777777777778</size><!-- 420 470 -->
+         <color>00000000</color>
+         <fontPath>${font}</fontPath>
+         <fontSize>0.034</fontSize>
+         <textColor>ffffff</textColor>
+         <textSelectedColor>ffffff</textSelectedColor>
+         <textBackgroundColor>ff000000</textBackgroundColor>
+         <textSelectedBackgroundColor>ffff0000</textSelectedBackgroundColor>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <lineSpacing>1</lineSpacing>
+         <itemSize>0.328125 0.075</itemSize><!-- 420 54 -->
+         <itemScale>1</itemScale>
+         <selectedItemMargins>-0.013888888888889 0.069444444444444</selectedItemMargins><!-- -10 50 -->
+         <verticalOffset>-0.0625</verticalOffset><!-- -45 -->
+         <horizontalOffset>0.024</horizontalOffset>
+         <maxItemCount>5</maxItemCount>
+         <itemTransitions>instant</itemTransitions>
+         <unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+         <type>vertical</type>
+         <itemHorizontalAlignment>left</itemHorizontalAlignment>
+      </carousel>
+   </view>
+
+   <view name="system">
+      <text name="title">
+         <text>ES/DE</text>
+      </text>
+      <text name="game-count">
+         <origin>0 1</origin>
+         <pos>0.68 0.64</pos><!-- 860 460 -->
+         <fontSize>0.03</fontSize>
+         <color>ffffffaa</color>
+         <systemdata>gamecount</systemdata>
+      </text>
+   </view>
+
+   <view name="gamelist">
+      <text name="system-name">
+         <text>${system.fullName.noCollections}</text>
+      </text>
+      <text name="system-name">
+         <text>${system.fullName.autoCollections}</text>
+         <letterCase>capitalize</letterCase>
+      </text>
+      <carousel name="carousel">
+         <imageType>none</imageType>
+      </carousel>
+   </view>
+
+</theme>
