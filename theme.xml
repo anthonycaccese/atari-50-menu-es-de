@@ -21,7 +21,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>000000</color>
+         <color>111111</color>
          <zIndex>0</zIndex>
       </image>
       <gameselector name="selector-random">
@@ -38,11 +38,11 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <delay>3</delay>
          <pillarboxes>false</pillarboxes>
       </video>
-      <image name="background-image">
+      <image name="layout-mask">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./_inc/images/background.svg</path>
+         <path>./_inc/images/layout-mask.svg</path>
          <zIndex>2</zIndex>
       </image>
       <text name="title,system-name,auto-collection-name,custom-collection-name">
@@ -63,7 +63,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </helpsystem>
       <carousel name="carousel">
          <origin>0 0</origin>
-         <pos>0.671875 0.247222222222222</pos><!-- 860 178 -->
+         <pos>0.671875 0.251388888888889</pos><!-- 860 181 -->
          <size>0.328125 0.652777777777778</size><!-- 420 470 -->
          <color>00000000</color>
          <fontPath>${fontRegular}</fontPath>
@@ -76,12 +76,12 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <lineSpacing>1</lineSpacing>
          <itemSize>0.328125 0.075</itemSize><!-- 420 54 -->
          <itemScale>1</itemScale>
-         <selectedItemMargins>-0.013888888888889 0.069444444444444</selectedItemMargins><!-- -10 50 -->
-         <verticalOffset>-0.0625</verticalOffset><!-- -45 -->
+         <selectedItemMargins>0.013888888888889 0.041666666666667</selectedItemMargins><!-- 10 30 -->
+         <verticalOffset>-0.027777777777778</verticalOffset><!-- -20 -->
          <horizontalOffset>0.024</horizontalOffset>
          <maxItemCount>5</maxItemCount>
          <itemTransitions>instant</itemTransitions>
-         <unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+         <unfocusedItemOpacity>0.2</unfocusedItemOpacity>
          <type>vertical</type>
          <itemHorizontalAlignment>left</itemHorizontalAlignment>
       </carousel>
@@ -93,10 +93,9 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </text>
       <text name="game-count">
          <origin>0 1</origin>
-         <pos>0.68 0.64</pos><!-- 860 460 -->
+         <pos>0.68 0.617</pos><!-- 860 460 -->
          <fontSize>0.026</fontSize>
          <fontPath>${fontThin}</fontPath>
-         <letterCase>uppercase</letterCase>
          <color>ffffffaa</color>
          <systemdata>gamecount</systemdata>
       </text>
@@ -106,13 +105,50 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <text name="system-name">
          <text>${system.fullName.noCollections}</text>
       </text>
-      <text name="system-name">
+      <text name="auto-collection-name">
          <text>${system.fullName.autoCollections}</text>
          <letterCase>capitalize</letterCase>
       </text>
       <carousel name="carousel">
          <imageType>none</imageType>
       </carousel>
+      <text name="game-genre">
+         <origin>0 1</origin>
+         <pos>0.68 0.617</pos><!-- 860 460 -->
+         <fontSize>0.026</fontSize>
+         <fontPath>${fontThin}</fontPath>
+         <color>ffffffaa</color>
+         <metadata>genre</metadata>
+      </text>
+      <badges name="badge-favorite,badge-completed,badge-collection,badge-folder">
+         <origin>1 0</origin>
+         <pos>0.6724 0.54</pos>
+         <size>0.3 0.0375</size>
+         <itemMargin>0 0</itemMargin>
+         <lines>1</lines>
+         <itemsPerLine>1</itemsPerLine>
+         <horizontalAlignment>right</horizontalAlignment>
+      </badges>
+      <badges name="badge-favorite">
+         <slots>favorite</slots>
+         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+         <zIndex>50</zIndex>
+      </badges>
+      <badges name="badge-completed">
+         <slots>completed</slots>
+         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+         <zIndex>51</zIndex>
+      </badges>
+      <badges name="badge-collection">
+         <slots>collection</slots>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+         <zIndex>52</zIndex>
+      </badges>
+      <badges name="badge-folder">
+         <slots>folder</slots>
+         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <zIndex>53</zIndex>
+      </badges>
    </view>
 
 </theme>
