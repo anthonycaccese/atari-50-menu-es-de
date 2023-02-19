@@ -4,7 +4,27 @@
       <text name="custom-collection-name">
          <metadata>systemFullname</metadata>
          <color>ffffff99</color>
-         <pos>0.14 0.1</pos>
       </text>
    </view>
+   <aspectRatio name="16:9">
+      <view name="gamelist">
+         <text name="custom-collection-name">
+            <pos>0.14 0.1</pos>
+         </text>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="16:10">
+      <view name="gamelist">
+         <text name="custom-collection-name">
+            <pos>0.158 0.1</pos>
+         </text>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <view name="gamelist">
+         <text name="custom-collection-name">
+            <pos>0.186666666666667 0.085</pos>
+         </text>
+      </view>
+   </aspectRatio>
 </theme>
