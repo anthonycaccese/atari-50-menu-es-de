@@ -159,7 +159,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <carousel name="carousel">
             <pos>0.671875 0.251388888888889</pos><!-- 860 181 -->
             <size>0.328125 0.652777777777778</size><!-- 420 470 -->
-            <itemSize>0.328125 0.075</itemSize><!-- 420 54 -->
+            <itemSize>0.5 0.075</itemSize><!-- 420 54 -->
             <horizontalOffset>0.024</horizontalOffset>
          </carousel>
       </view>
