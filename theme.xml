@@ -57,7 +57,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <textColor>ffffffbb</textColor>
          <iconColor>ffffffbb</iconColor>
       </helpsystem>
-      <carousel name="system-carousel,gamelist-carousel">
+      <carousel name="carousel">
          <origin>0 0</origin>
          <color>00000000</color>
          <fontPath>${fontRegular}</fontPath>
@@ -157,7 +157,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <helpsystem name="help">
             <pos>0.9765625 0.085</pos>
          </helpsystem>
-         <carousel name="system-carousel,gamelist-carousel">
+         <carousel name="carousel">
             <pos>0.671875 0.251388888888889</pos><!-- 860 181 -->
             <size>0.328125 0.652777777777778</size><!-- 420 470 -->
             <itemSize>0.5 0.075</itemSize><!-- 420 54 -->
@@ -196,7 +196,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <helpsystem name="help">
             <pos>0.973958333333333 0.085</pos>
          </helpsystem>
-         <carousel name="system-carousel,gamelist-carousel">
+         <carousel name="carousel">
             <pos>0.635416666666667 0.251388888888889</pos><!-- 732 181 -->
             <size>0.364583333333333 0.652777777777778</size><!-- 420 470 -->
             <itemSize>0.364583333333333 0.072</itemSize><!-- 420 54 -->
@@ -236,7 +236,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <origin>0 1</origin>
             <pos>0.04 0.112</pos>
          </helpsystem>
-         <carousel name="system-carousel,gamelist-carousel">
+         <carousel name="carousel">
             <pos>0.5625 0.251388888888889</pos><!-- 540 181 -->
             <size>0.4375 0.652777777777778</size><!-- 420 470 -->
             <itemSize>0.4375 0.075</itemSize><!-- 420 54 -->
