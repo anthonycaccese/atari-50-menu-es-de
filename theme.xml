@@ -33,7 +33,6 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <zIndex>1</zIndex>
          <gameselector>selector-random</gameselector>
          <imageType>screenshot</imageType>
-         <scanlines>true</scanlines>
          <delay>3</delay>
          <pillarboxes>false</pillarboxes>
       </video>
@@ -146,7 +145,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="16:9">
       <view name="system,gamelist">
          <video name="background-art">
-            <maxSize>1 2</maxSize>
+            <cropSize>1 1</cropSize>
          </video>
          <image name="layout-mask">
             <path>./_inc/images/layout-mask-16-9.svg</path>
@@ -183,9 +182,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="16:10">
       <view name="system,gamelist">
          <video name="background-art">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.5</pos>
-            <maxSize>2 1.4</maxSize>
+            <cropSize>1 1</cropSize>
          </video>
          <image name="layout-mask">
             <path>./_inc/images/layout-mask-16-10.svg</path>
@@ -222,9 +219,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="4:3">
       <view name="system,gamelist">
          <video name="background-art">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.5</pos>
-            <maxSize>2 1.4</maxSize>
+            <cropSize>1 1</cropSize>
          </video>
          <image name="layout-mask">
             <path>./_inc/images/layout-mask-4-3.svg</path>
