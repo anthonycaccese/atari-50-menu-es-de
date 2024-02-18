@@ -87,7 +87,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <view name="system">
       <text name="title">
-         <text>EmulationStation</text>
+         <text>ES-DE</text>
       </text>
       <text name="game-count">
          <origin>0 1</origin>
