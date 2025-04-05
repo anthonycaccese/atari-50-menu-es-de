@@ -15,6 +15,40 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </variables>
 
    <view name="system,gamelist">
+      <!-- Start: menu styling resets -->
+      <clock name="clock-menu-view">
+         <scope>menu</scope>
+         <origin>0 0</origin>
+         <pos>0.0075 0.01</pos>
+         <backgroundColor>222222</backgroundColor>
+         <color>cccccc</color>
+         <backgroundHorizontalPadding>0.02 0.01</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.02 0.01</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </clock>
+      <systemstatus name="system-status-menu-view">
+         <scope>menu</scope>
+         <origin>1 0</origin>
+         <pos>0.99 0.01</pos>
+         <backgroundColor>222222</backgroundColor>
+         <color>cccccc</color>
+         <backgroundHorizontalPadding>0.0075 0.02</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.02 0.01</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </systemstatus>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 1</origin>
+         <pos>0.5 0.9875</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>222222</backgroundColor>
+         <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.015 0.02</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+         <entryRelativeScale>0.9</entryRelativeScale>
+      </helpsystem>
+      <!-- End: menu styling resets -->
       <image name="background-color">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -25,9 +59,11 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <zIndex>0</zIndex>
       </image>
       <clock name="clock">
+         <scope>view</scope>
          <opacity>0</opacity>
       </clock>
       <systemstatus name="system-status">
+         <scope>view</scope>
          <origin>1 0</origin>
          <textRelativeScale>0.75</textRelativeScale>
          <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
@@ -65,6 +101,7 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <lineSpacing>1</lineSpacing>
       </text>
       <helpsystem name="help">
+         <scope>view</scope>
          <origin>1 1</origin>
          <fontSize>0.02</fontSize>
          <fontPath>${fontThin}</fontPath>
